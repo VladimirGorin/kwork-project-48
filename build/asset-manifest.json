@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85fbb647.css",
+    "main.js": "/static/js/main.8e5b2940.js",
+    "static/media/header-main-bg.png": "/static/media/header-main-bg.9d494041456a1ef4670e.png",
+    "static/media/book-4.png": "/static/media/book-4.57939e2efc71a9e55d9c.png",
+    "static/media/book-1.png": "/static/media/book-1.4aba95e71122f26881c1.png",
+    "static/media/book-0.png": "/static/media/book-0.5bd9106ea8e7b9409ea9.png",
+    "static/media/book-3.png": "/static/media/book-3.c170b620b47757f8fbd6.png",
+    "static/media/book-5.png": "/static/media/book-5.a70be6fc45e46909f3bb.png",
+    "static/media/book-2.png": "/static/media/book-2.47d583ddad84f838b31d.png",
+    "static/media/reviwes-2.png": "/static/media/reviwes-2.13584efe684380b97e0c.png",
+    "static/media/reviwes-1.png": "/static/media/reviwes-1.30e683fc3480024f6481.png",
+    "static/media/reviwes-3.png": "/static/media/reviwes-3.2344acdc92045cc669b0.png",
+    "static/media/sentence-bg.png": "/static/media/sentence-bg.5b4dc39e866f1c1acf75.png",
+    "index.html": "/index.html",
+    "main.85fbb647.css.map": "/static/css/main.85fbb647.css.map",
+    "main.8e5b2940.js.map": "/static/js/main.8e5b2940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85fbb647.css",
+    "static/js/main.8e5b2940.js"
+  ]
+}
