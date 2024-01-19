@@ -1,0 +1,28 @@
+.footer .footer__body {
+  height: 53px;
+  background: #90480a;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.footer .footer__body .footer__button {
+  max-width: 210px;
+  width: 100%;
+  height: 40px;
+  background: #0e244d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.footer .footer__body a {
+  color: #fff8f8;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.footer .footer__body img {
+  width: 45px;
+  height: 41px;
+}/*# sourceMappingURL=footer.css.map */

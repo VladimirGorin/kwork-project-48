@@ -1,0 +1,209 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.title {
+  background: #0e244d;
+  width: 100%;
+  padding: 19px 0;
+  .title__body {
+    background-color: #90480a;
+    display: flex;
+    align-items: center;
+    height: 53px;
+    padding: 0 15px;
+
+    img {
+      width: 45px;
+      height: 45px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 0;
+      color: #c1bcbc;
+      font-size: 36px;
+      font-weight: 600;
+      flex-grow: 1;
+
+      @media (max-width: 500px) {
+        font-size: 7vw;
+      }
+    }
+  }
+}
+.books {
+  width: 100%;
+  margin: 20px 0;
+
+  .books__body {
+    @media (max-width: 1300px) {
+      flex-direction: column;
+      justify-content: center;
+      img {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      img {
+        width: 90%;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+}
+
+.ourAdvantages {
+  margin: 20px 0 80px;
+  padding: 20px 90px;
+  @media (max-width: 1000px) {
+    padding: 20px 0;
+  }
+  .ourAdvantages__body {
+    flex-direction: row;
+    height: 100%;
+    display: flex;
+
+    .ourAdvantages__numbers {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media (max-width: 1000px) {
+        justify-content: space-around;
+      }
+
+      .ourAdvantages__number {
+        @media (max-width: 500px) {
+          height: 50px;
+          width: 50px;
+        }
+
+        margin: 20px;
+        width: 65px;
+        height: 67px;
+        background-color: #d9d9d9;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          @media (max-width: 500px) {
+            font-size: 10vw;
+            margin-right: 10px;
+
+          }
+          margin-right: 15px;
+          color: #90480a;
+          font-family: Inter;
+          font-size: 48px;
+          font-style: italic;
+          font-weight: 800;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+      }
+    }
+    .hr {
+      height: 100%;
+      width: 1px;
+      background-color: #fffbfb;
+      margin: 0 40px;
+
+      @media (max-width: 1000px) {
+        margin: 0 20px;
+        display: none;
+      }
+    }
+    .ourAdvantages__texts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      @media (max-width: 1000px) {
+        padding: 0;
+      }
+
+      .ourAdvantages__text {
+        position: relative;
+        margin: 20px 0;
+
+        .ourAdvantages__blur {
+          @media (max-width: 1000px) {
+            top: -10px;
+            left: -20px;
+          }
+
+          filter: blur(22.5px);
+          z-index: 400;
+          background: #936742;
+          position: absolute;
+          top: -40px;
+          left: 0;
+          width: 100%;
+          min-height: 155px;
+          height: 100%;
+        }
+
+        li {
+          position: relative;
+          z-index: 500;
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          @media (max-width: 500px) {
+            font-size: 4vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+.reviews {
+  margin: 20px 0 160px;
+  padding: 20px 90px;
+
+  @media (max-width: 1000px) {
+    padding: 20px 0;
+  }
+
+  .reviews__body {
+    @media (max-width: 1300px) {
+      flex-direction: column;
+      justify-content: center;
+      .reviews__review {
+        margin-bottom: 80px;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    flex-wrap: wrap;
+
+    .reviews__review {
+      max-width: 318px;
+      width: 100%;
+      height: 379px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .reviews__screenshot {
+        background-color: #d9d9d9;
+        min-height: 379px;
+        max-width: 318px;
+        width: 100%;
+      }
+    }
+  }
+}
